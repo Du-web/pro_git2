@@ -12,3 +12,9 @@ def index(request):
 def register(request):
     print('模拟函数')
     return HttpResponse('模拟函数')
+
+
+def login(request):
+    print('第二个函数')
+    return HttpResponse('第二个函数')
+
